@@ -1,0 +1,20 @@
+export(cracks.growth)
+export(IB.F)
+export(PLOT.cg)
+importFrom("grDevices", "boxplot.stats", "colors")
+importFrom("graphics", "abline", "legend", "lines", "plot", "points")
+importFrom("stats", "coef", "coefficients", "lm", "na.omit", "predict",
+"quantile", "resid", "rnorm", "sd", "selfStart", "spline", "var")
+import(kerdiest)
+import(KernSmooth)
+import(nlme)
+
+
+
+
+
+
+
+
+
+

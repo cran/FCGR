@@ -1,0 +1,31 @@
+Package: FCGR
+Type: Package
+Title: Fatigue Crack Growth in Reliability
+Version: 1.0-0
+Date: 2015-09-29
+Author: Antonio Meneses <antoniomenesesfreire@hotmail.com>,
+        Salvador Naya <salva@udc.es>,
+        Javier Tarrio-Saavedra <jtarrio@udc.es>,
+        Ignacio Lopez-Ullibarri <ilu@udc.es>  
+Maintainer: Antonio Meneses <antoniomenesesfreire@hotmail.com>
+Depends: R (>= 3.2.2), KernSmooth, kerdiest, nlme
+Imports: MASS, mgcv, pspline, sfsmisc
+Description: Fatigue Crack Growth in Reliability estimates the distribution
+             of material lifetime due to mechanical fatigue efforts. The FCGR
+             package provides simultaneous crack growth curves fitting to 
+             different specimens in materials under mechanical stress efforts. 
+             Linear mixed-effects models (LME) with smoothing B-Splines 
+             and the linearized Paris-Erdogan law are applied. Once defined
+             the fail for a determined crack length, the distribution function
+             of failure times to fatigue is obtained. The density function is
+             estimated by applying nonparametric binned kernel density estimate 
+             (bkde) and the kernel estimator of the distribution function (kde). 
+             The results of Pinheiro and Bates method based on nonlinear 
+             mixed-effects regression (nlme) can be also retrieved. The package 
+             contains the crack.growth, PLOT.cg, IB.F, and Alea.A (database) functions.
+License: GPL (>= 2)
+LazyData: yes
+NeedsCompilation: no
+Packaged: 2015-10-13 00:28:56 UTC; usuario
+Repository: CRAN
+Date/Publication: 2015-10-13 09:10:49
